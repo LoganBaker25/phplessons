@@ -58,6 +58,9 @@
                     <li class="nav-item">
                         <a class="nav-link text-lakers-gold" href="operators.php">Operators</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="loops.php">Loops</a> 
+                    </li>
                 </ul>
             </div>
         </div>
