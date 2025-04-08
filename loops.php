@@ -98,10 +98,7 @@
                 echo "Case 4: The answer is 4.";
                 break;
             default:
-                echo "There is no Answer.";
-                break;
-        }
-        ?>
+                echo "The
     </div>
 
     <!-- Bootstrap JS -->
