@@ -32,6 +32,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="loops.php">Loops</a> 
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-lakers-gold" href="arrays.php">arrays</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-lakers-gold" href="functions.php">functions</a> 
+                    </li>
                 </ul>
             </div>
         </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conditionals Example</title>
+    <title>PHP Array Example</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Custom Lakers Colors */
@@ -33,6 +33,12 @@
             border-radius: 8px;
             padding: 20px;
         }
+
+        .content {
+            background-color: #F0E5A6; /* Light Goldish background */
+            border-radius: 8px;
+            padding: 15px;
+        }
     </style>
 </head>
 <body>
@@ -40,7 +46,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-lakers-purple">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">PHP Examples</a>
+            <a class="navbar-brand" href="#">PHP Lakers Examples</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,7 +65,7 @@
                         <a class="nav-link text-lakers-gold" href="operators.php">Operators</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="loops.php">Loops</a> 
+                        <a class="nav-link text-lakers-gold" href="loops.php">Loops</a> 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lakers-gold" href="arrays.php">arrays</a> 
@@ -73,44 +79,14 @@
     </nav>
 
     <div class="container mt-4">
-        <h2 class="text-lakers-gold">Conditional Statements Example</h2>
-        <?php
-        $condition = 3;
-
-        if ($condition === 1) {
-            echo "Lebron is the best player in the NBA!";
-        } elseif ($condition === 2) {
-            echo "Lebron will never retire!";
-        } elseif ($condition === 3) {
-            echo "Lebron is the Goat!";
-        } elseif ($condition === 4) {
-            echo "Lebron is underrated!";
-        } else {
-            echo "None of the conditions are true!";
-        }
-        ?>
-
-        <h2 class="mt-4 text-lakers-gold">Switch Statement Example</h2>
-        <?php
-        $x = 1;
-        switch ($x) {
-            case 1:
-                echo "Case 1: The answer is 1.";
-                break;
-            case 2:
-                echo "Case 2: The answer is 2.";
-                break;
-            case 3:
-                echo "Case 3: The answer is 3.";
-                break;
-            case 4:
-                echo "Case 4: The answer is 4.";
-                break;
-            default:
-                echo "There is no Answer.";
-                break;
-        }
-        ?>
+        <h2 class="text-lakers-gold">PHP Array Example</h2>
+        <p>Here is a sample from a PHP array:</p>
+        <div class="content">
+            <?php
+            $array = array("Lebron", "Green", "Logan", "Magic", "Kareem");
+            echo "<strong>" . $array[2] . "</strong>"; // This will output "Logan"
+            ?>
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
@@ -118,4 +94,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
-
