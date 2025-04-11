@@ -47,7 +47,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-lakers-gold" href="index.php">Conditionals</a>
+                        <a class="nav-link text-lakers-gold" href="conditionals.php">Conditionals</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lakers-gold" href="datatypes.php">Data Types</a>
@@ -62,10 +62,10 @@
                         <a class="nav-link" href="loops.php">Loops</a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-lakers-gold" href="arrays.php">arrays</a> 
+                        <a class="nav-link text-lakers-gold" href="arrays.php">Arrays</a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-lakers-gold" href="functions.php">functions</a> 
+                        <a class="nav-link text-lakers-gold" href="functions.php">Functions</a> 
                     </li>
                 </ul>
             </div>

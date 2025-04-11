@@ -1,0 +1,32 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Lakers Colors */
+.text-lakers-gold {
+    color: #FDB927;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #552583;
+    color: #fff;
+}
+
+/* Navbar GOLD background with PURPLE text */
+.navbar {
+    background-color: #FDB927; /* Lakers Gold */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #552583; /* Lakers Purple */
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+}
