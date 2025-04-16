@@ -17,6 +17,7 @@
             echo "Count: $i<br>";
         }
         ?>
+        <?php include 'header.php'; ?>
     </div>
 
     <footer>

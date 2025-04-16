@@ -18,6 +18,7 @@
         $isGoat = true;
         echo "$name is $age years old. GOAT? " . ($isGoat ? "Yes" : "No");
         ?>
+        <?php include 'header.php'; ?>
     </div>
 
 </body>

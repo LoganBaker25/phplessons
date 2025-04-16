@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    $_SESSION['username'] = 'CoolUser123'; // You can change this to any username
+}
+?>
+
+<!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand" href="#">PHP Examples</a>
@@ -17,3 +26,10 @@
         </div>
     </div>
 </nav>
+
+<!-- Logged-in Message -->
+<div class="container mt-3">
+    <div class="alert alert-success" role="alert">
+        You are logged in as <strong><?php echo $_SESSION['username']; ?></strong>
+    </div>
+</div>

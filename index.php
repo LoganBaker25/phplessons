@@ -111,6 +111,8 @@
                 break;
         }
         ?>
+        <?php include 'header.php'; ?>
+        
     </div>
 
     <!-- Bootstrap JS -->
