@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['username'])) {
-    $_SESSION['username'] = 'CoolUser123'; // You can change this to any username
+    $_SESSION['username'] = 'LebronDaGoat'; // You can change this to any username
 }
 ?>
 
@@ -22,6 +22,7 @@ if (!isset($_SESSION['username'])) {
                 <li class="nav-item"><a class="nav-link" href="loops.php">Loops</a></li>
                 <li class="nav-item"><a class="nav-link" href="arrays.php">Arrays</a></li>
                 <li class="nav-item"><a class="nav-link" href="functions.php">Functions</a></li>
+                <li class="nav-item"><a class="nav-link" href="cookie.php">Cookies</a></li>
             </ul>
         </div>
     </div>
