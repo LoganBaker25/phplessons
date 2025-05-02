@@ -1,32 +1,32 @@
-<?php
-include 'includes/conn.php';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
-
-    $sql = "INSERT INTO contacts (name, email, message) VALUES ('$name', '$email', '$message')";
-
-    if ($conn->query($sql) === TRUE) {
-        echo "Message submitted successfully!";
-    } else {
-        echo "Error: " . $conn->error;
-    }
-w
-    $conn->close();
-}
-?>
-
-<form method="POST" action="contact.php">
-    <label>Name:</label>
-    <input type="text" name="name" required><br>
-
-    <label>Email:</label>
-    <input type="email" name="email" required><br>
-
-    <label>Message:</label>
-    <textarea name="message" required></textarea><br>
-
-    <input type="submit" value="Send">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+<form action="includes/signup.inc.php" method="POST">
+  <input type="text" name="first" placeholder="Firstname">
+  <br>
+  <input type="text" name="last" placeholder="Lastname">
+  <br>
+  <input type="text" name="email" placeholder="E-mail">
+  <br>
+  <input type="text" name="uid" placeholder="Username">
+  <br>
+  <input type="password" name="pwd" placeholder="Password">
+  <br>
+  <button type="submit" name="submit">Sign Up</button>
+  <br>
 </form>
+
+<?php
+    include "includes/header.php";
+
+?>
+   
+</body>
+</html>
